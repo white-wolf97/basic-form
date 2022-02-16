@@ -3,3 +3,153 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: Poppins, sans-serif;
+	color: white;
+	font-weight: bold;
+	background-image: linear-gradient(
+			115deg,
+			rgba(58, 58, 158, 0.8),
+			rgba(136, 136, 206, 0.7)
+		),
+		url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	height: 100vh;
+}
+/* 
+@media screen and (min-width: 600px) {
+	.form-container {
+		width: 60%;
+		margin: auto;
+	}
+} */
+
+.form-container {
+	width: 35%;
+	margin: auto;
+	min-width: 300px;
+}
+
+.form-group {
+	padding: 0px 20px 20px 20px;
+}
+
+form {
+	border: 1px solid black;
+	background-color: rgba(27, 27, 50, 0.8);
+	border-radius: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+form .form-group:nth-child(1) {
+	padding-top: 20px;
+}
+
+.custom-input {
+	border-radius: 0.25rem;
+	margin-top: 8px;
+	height: 2rem;
+	border: none;
+	width: 100%;
+}
+
+.form-container h1 {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.button {
+	padding: 10px;
+	border-radius: 0.3rem;
+	font-family: Poppins, sans-serif;
+	color: white;
+	font-weight: bold;
+	border: none;
+	width: 100px;
+}
+
+.button-primary {
+	background-color: #19d4a5;
+}
+
+.button-secondary {
+	background-color: #324158d1;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: black;
+	padding: 10px;
+	align-items: center;
+}
+
+.button-container {
+	vertical-align: middle;
+}
+
+#submit-button {
+	margin: 0px auto 20px auto;
+}
+
+input:focus {
+	outline: none;
+}
+
+.radio-button {
+	height: 15px;
+	width: 15px;
+}
+
+.radio-button-label {
+	font-size: 12px;
+}
+
+.radio-button-and-label {
+	display: flex;
+	flex-direction: row;
+}
+
+.checkbox-label {
+	font-size: 12px;
+}
+
+.selectors-container {
+	margin-top: 8px;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	resize: none;
+	outline: none;
+	border: none;
+}
+input {
+	padding-left: 10px;
+}
+
+::placeholder {
+	font-family: Poppins, sans-serif;
+}
+
+select {
+	padding-left: 10px;
+}
+
+select:focus {
+	outline: none;
+}
+
+footer p {
+	text-align: center;
+	font-weight: normal;
+}
+
+footer {
+	margin-top: 30px;
+}
